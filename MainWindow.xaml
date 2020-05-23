@@ -11,8 +11,8 @@
         Title="Responsive Design" Height="450" Width="600"
         MinWidth="200">
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-            <views:UserCardsScrollView/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <views:UserCardsStackPanelView/>
         </ScrollViewer>
     </Grid>
 </Window>

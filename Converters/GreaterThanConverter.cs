@@ -10,9 +10,9 @@ namespace ResponsiveDesign.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return double.TryParse(value.ToString(), out double intValue) &&
-                double.TryParse(parameter.ToString(), out double intParameter) &&
-                intValue > intParameter;
+            return double.TryParse(value.ToString(), out double doubleValue) &&
+                double.TryParse(parameter.ToString(), out double doubleParameter) &&
+                doubleValue > doubleParameter;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
