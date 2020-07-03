@@ -8,7 +8,7 @@
              
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <WrapPanel HorizontalAlignment="Center">
+    <WrapPanel HorizontalAlignment="Center" ItemWidth="300">
         <components:UserCard Margin="10" Username="SingletonSean" Age="75" FavoriteColor="Blue"/>
         <components:UserCard Margin="10" Username="LeBron23" Age="18" FavoriteColor="Red"/>
         <components:UserCard Margin="10" Username="Mary12" Age="50" FavoriteColor="Green"/>

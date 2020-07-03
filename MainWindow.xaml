@@ -12,7 +12,7 @@
         MinWidth="200">
     <Grid>
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
-            <views:UserCardsStackPanelView/>
+            <views:UserCardsGarethPanelView/>
         </ScrollViewer>
     </Grid>
 </Window>
